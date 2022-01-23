@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c59d11f3-d76b-41d4-8e76-353f62de35df" name="Changes" comment="Homework002.1">
-      <change afterPath="$PROJECT_DIR$/HomeWork/002/Superbenchmarker002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm002/GCLogAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm002/HttpServer01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm002/HttpServer02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm002/HttpServer03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm021/HttpClient01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java001.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +98,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HomeWork/001" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../httpcomponents-client-4.5.13/lib/jna-platform-4.5.2.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -108,20 +112,7 @@
       <recent name="D:\Idea_Projects\JavaAdvance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GCLogAnalysis">
-    <configuration name="ForLoopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.laoshige.ForLoopTest" />
-      <module name="Java001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.laoshige.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HttpClient01">
     <configuration name="GCLogAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jvm002.GCLogAnalysis" />
       <module name="Java001" />
@@ -161,12 +152,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JvmClassLoaderPrintPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.laoshige.JvmClassLoaderPrintPath" />
+    <configuration name="HttpClient01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm021.HttpClient01" />
       <module name="Java001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.laoshige.*" />
+          <option name="PATTERN" value="jvm021.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpServer01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm002.HttpServer01" />
+      <module name="Java001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jvm002.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ForLoopTest" />
-      <item itemvalue="Application.JvmClassLoaderPrintPath" />
       <item itemvalue="Application.HelloClassLoader" />
       <item itemvalue="Application.HomeworkLoader" />
       <item itemvalue="Application.GCLogAnalysis" />
+      <item itemvalue="Application.HttpServer01" />
+      <item itemvalue="Application.HttpClient01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HttpClient01" />
+        <item itemvalue="Application.HttpServer01" />
         <item itemvalue="Application.GCLogAnalysis" />
         <item itemvalue="Application.HomeworkLoader" />
         <item itemvalue="Application.HelloClassLoader" />
-        <item itemvalue="Application.JvmClassLoaderPrintPath" />
-        <item itemvalue="Application.ForLoopTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +220,7 @@
       <workItem from="1642856710062" duration="1299000" />
       <workItem from="1642907045144" duration="4925000" />
       <workItem from="1642913736332" duration="972000" />
-      <workItem from="1642914781880" duration="9112000" />
+      <workItem from="1642914781880" duration="13066000" />
     </task>
     <task id="LOCAL-00001" summary="Initialization the training projects.">
       <created>1642592270902</created>
@@ -246,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642944514528</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Homework002.1">
+      <created>1642944926185</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642944926185</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
