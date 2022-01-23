@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c59d11f3-d76b-41d4-8e76-353f62de35df" name="Changes" comment="Initialization the training projects.">
+    <list default="true" id="c59d11f3-d76b-41d4-8e76-353f62de35df" name="Changes" comment="Homework002.">
+      <change afterPath="$PROJECT_DIR$/HomeWork/002/GC_Heap_Summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm011/HomeworkLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvm011/HomeworkLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="23lahJH0eUkXbeulCqZPl8j6jiK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -90,24 +95,40 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HomeWork/001" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea_Projects\JavaAdvance\Java001\HomeWork\001" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Idea_Projects\JavaAdvance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeworkLoader">
+  <component name="RunManager" selected="Application.GCLogAnalysis">
     <configuration name="ForLoopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.laoshige.ForLoopTest" />
       <module name="Java001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.laoshige.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GCLogAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm002.GCLogAnalysis" />
+      <module name="Java001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jvm002.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,33 +175,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalVariableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.laoshige.LocalVariableTest" />
-      <module name="Java001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.laoshige.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.LocalVariableTest" />
       <item itemvalue="Application.ForLoopTest" />
       <item itemvalue="Application.JvmClassLoaderPrintPath" />
       <item itemvalue="Application.HelloClassLoader" />
       <item itemvalue="Application.HomeworkLoader" />
+      <item itemvalue="Application.GCLogAnalysis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GCLogAnalysis" />
         <item itemvalue="Application.HomeworkLoader" />
         <item itemvalue="Application.HelloClassLoader" />
         <item itemvalue="Application.JvmClassLoaderPrintPath" />
         <item itemvalue="Application.ForLoopTest" />
-        <item itemvalue="Application.LocalVariableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +212,12 @@
       <workItem from="1642563650327" duration="70000" />
       <workItem from="1642563799210" duration="1264000" />
       <workItem from="1642592101882" duration="520000" />
-      <workItem from="1642598569737" duration="1547000" />
+      <workItem from="1642598569737" duration="2442000" />
+      <workItem from="1642603074592" duration="62000" />
+      <workItem from="1642856710062" duration="1299000" />
+      <workItem from="1642907045144" duration="4925000" />
+      <workItem from="1642913736332" duration="972000" />
+      <workItem from="1642914781880" duration="8811000" />
     </task>
     <task id="LOCAL-00001" summary="Initialization the training projects.">
       <created>1642592270902</created>
@@ -213,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642592270902</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Homework001.">
+      <created>1642602136967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642602136967</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homework001.">
+      <created>1642602304269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642602304269</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +259,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialization the training projects." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialization the training projects." />
+    <MESSAGE value="Homework001." />
+    <MESSAGE value="Homework002." />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework002." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -43,7 +43,7 @@ public class HomeworkLoader extends ClassLoader {
     public byte[] decode255() {
         byte[] res= {};
         try {
-            InputStream in = new FileInputStream("D:/Idea_Projects/Hello.xlass");
+            InputStream in = new FileInputStream("D:/Idea_Projects/Hello0.xlass");
             int size = in.available();
             byte[] ins = new byte[size];
             res = new byte[size];
