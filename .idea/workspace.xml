@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c59d11f3-d76b-41d4-8e76-353f62de35df" name="Changes" comment="Homework002.1">
-      <change afterPath="$PROJECT_DIR$/src/jvm002/HttpServer01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm002/HttpServer02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm002/HttpServer03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm021/HttpClient01.java" afterDir="false" />
+    <list default="true" id="c59d11f3-d76b-41d4-8e76-353f62de35df" name="Changes" comment="Homework002.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm011/HomeworkLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvm011/HomeworkLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm021/HttpClient01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvm021/HttpClient01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +95,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../httpcomponents-client-4.5.13/lib/jna-platform-4.5.2.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaCourseCodes/02nio/nio01" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -220,7 +217,11 @@
       <workItem from="1642856710062" duration="1299000" />
       <workItem from="1642907045144" duration="4925000" />
       <workItem from="1642913736332" duration="972000" />
-      <workItem from="1642914781880" duration="13066000" />
+      <workItem from="1642914781880" duration="13734000" />
+      <workItem from="1642985131562" duration="191000" />
+      <workItem from="1642985387901" duration="2125000" />
+      <workItem from="1643014529345" duration="8092000" />
+      <workItem from="1643527185650" duration="12516000" />
     </task>
     <task id="LOCAL-00001" summary="Initialization the training projects.">
       <created>1642592270902</created>
@@ -257,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642944926185</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Homework002.2">
+      <created>1642949627771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642949627771</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Homework002.2">
+      <created>1642949744870</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642949744870</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +294,8 @@
     <MESSAGE value="Homework001." />
     <MESSAGE value="Homework002." />
     <MESSAGE value="Homework002.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework002.1" />
+    <MESSAGE value="Homework002.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework002.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

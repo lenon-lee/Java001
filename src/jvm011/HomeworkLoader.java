@@ -11,6 +11,7 @@ import java.lang.reflect.*;
 
 public class HomeworkLoader extends ClassLoader {
     public static void main(String[] args) {
+        String proxyServer = System.getProperty("proxyServer","http://locahost:8080");
         try {
             // 类名称应与源代码中的package名和class名保持一致，与本程序所在包无关
             Object obj = new HomeworkLoader().findClass("Hello").newInstance();
