@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c59d11f3-d76b-41d4-8e76-353f62de35df" name="Changes" comment="Homework002.2">
+    <list default="true" id="c59d11f3-d76b-41d4-8e76-353f62de35df" name="Changes" comment="Homework002.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvm011/HomeworkLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvm011/HomeworkLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvm021/HttpClient01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvm021/HttpClient01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +93,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaCourseCodes/02nio/nio01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaCourseCodes/03concurrency/0301" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -221,7 +219,12 @@
       <workItem from="1642985131562" duration="191000" />
       <workItem from="1642985387901" duration="2125000" />
       <workItem from="1643014529345" duration="8092000" />
-      <workItem from="1643527185650" duration="12516000" />
+      <workItem from="1643527185650" duration="15888000" />
+      <workItem from="1644455129443" duration="1181000" />
+      <workItem from="1644456392437" duration="148000" />
+      <workItem from="1644456629396" duration="158000" />
+      <workItem from="1644456840333" duration="469000" />
+      <workItem from="1644457393091" duration="3761000" />
     </task>
     <task id="LOCAL-00001" summary="Initialization the training projects.">
       <created>1642592270902</created>
@@ -272,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642949744870</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Homework002.3">
+      <created>1643685083206</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643685083206</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +305,8 @@
     <MESSAGE value="Homework002." />
     <MESSAGE value="Homework002.1" />
     <MESSAGE value="Homework002.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework002.2" />
+    <MESSAGE value="Homework002.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework002.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
