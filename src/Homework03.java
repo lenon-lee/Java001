@@ -48,6 +48,9 @@ public class Homework03 {
             e.printStackTrace();
         } catch (ExecutionException e) {
             e.printStackTrace();
+        } finally {
+            // 关闭cached线程池, 以便结束JVM进程, 否则需要60秒空闲才能没有线程
+            service.shutdown();
         }
 
         // 3. Thread + Future + Callable
@@ -83,8 +86,7 @@ public class Homework03 {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
-        // 5. Thread + FutureTask + Callable + CountDownLatch
+        // 5. CompletableFuture.get() + Callable
 //        CountDownLatch countDownLatch = new CountDownLatch(1);
         CompletableFuture<Integer> cfSum = CompletableFuture.supplyAsync(()-> {
             int result =  sum();
@@ -93,7 +95,8 @@ public class Homework03 {
         });
         try {
             int result = cfSum.get();
-            System.out.println("5 : Thread + FutureTask + Callable + CountDownLatch异步计算结果为："+result);
+            cfSum.complete(100);
+            System.out.println("5 : CompletableFuture.get() + Callable异步计算结果为："+result);
             System.out.println("使用时间："+ (System.currentTimeMillis()-start) + " ms");
 //            countDownLatch.await();
         } catch (InterruptedException e) {
@@ -102,9 +105,17 @@ public class Homework03 {
             e.printStackTrace();
         }
 
+        // 6. CompletableFuture.join() + Callable
+        CompletableFuture<Integer> cfSum6 = CompletableFuture.supplyAsync(()-> {
+            int result =  sum();
+            return result;
+        });
+        int result = cfSum6.join();
+        System.out.println("6 : CompletableFuture.join() + Callable异步计算结果为："+result);
+        System.out.println("使用时间："+ (System.currentTimeMillis()-start) + " ms");
         // 然后退出main线程
     }
-    
+
     private static int sum() {
         return fibo(36);
     }
